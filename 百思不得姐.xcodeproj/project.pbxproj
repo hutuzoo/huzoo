@@ -18,6 +18,7 @@
 		CD1FE3D71CA904E000FFF6B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1FE3CA1CA904E000FFF6B1 /* main.m */; };
 		CD1FE3D81CA904E000FFF6B1 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1FE3CE1CA904E000FFF6B1 /* XMGTabBar.m */; };
 		CDC1B4BC1CA91F6300B2E204 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC1B4BB1CA91F6300B2E204 /* XMGNavigationController.m */; };
+		CDEC31921CAA58BA0029E5FF /* XMGFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC31911CAA58BA0029E5FF /* XMGFriendTrendsViewController.xib */; };
 		CDF1B5B81CA3B8AD00D1110F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF1B5B71CA3B8AD00D1110F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		CD1FE3CE1CA904E000FFF6B1 /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
 		CDC1B4BA1CA91F6300B2E204 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
 		CDC1B4BB1CA91F6300B2E204 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
+		CDEC31911CAA58BA0029E5FF /* XMGFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		CDF1B5A81CA3B8AC00D1110F /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF1B5B71CA3B8AD00D1110F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDF1B5BC1CA3B8AD00D1110F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				CD1FE3AF1CA904E000FFF6B1 /* XMGFriendTrendsViewController.h */,
 				CD1FE3B01CA904E000FFF6B1 /* XMGFriendTrendsViewController.m */,
+				CDEC31911CAA58BA0029E5FF /* XMGFriendTrendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDF1B5B81CA3B8AD00D1110F /* Images.xcassets in Resources */,
+				CDEC31921CAA58BA0029E5FF /* XMGFriendTrendsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

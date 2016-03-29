@@ -20,9 +20,8 @@
 
 @implementation XMGTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
++ (void)initialize
+{
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
@@ -34,6 +33,10 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
     
     //添加自控制器
     [self setupChildVc:[[XMGEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
@@ -60,7 +63,7 @@
 //    vc.view.backgroundColor = [UIColor colorWithRed:223/255.0 green:223/255.0 blue:223/255.0 alpha:1.0];
 //包装一个导航控制器，添加导航控制器为TaBBarController的自控制器
     XMGNavigationController *nav = [[XMGNavigationController alloc] initWithRootViewController:vc];
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+
     [self addChildViewController:nav];
 
 }

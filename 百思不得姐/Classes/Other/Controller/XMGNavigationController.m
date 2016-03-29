@@ -12,10 +12,19 @@
 
 @end
 
+
 @implementation XMGNavigationController
+
+
++ (void)initialize
+{
+    UINavigationBar *bar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
@@ -46,8 +55,4 @@
 }
 
 
-- (void)seting
-{
-    [self popToRootViewControllerAnimated:YES];
-}
 @end
