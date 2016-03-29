@@ -45,4 +45,9 @@
     [self popToRootViewControllerAnimated:YES];
 }
 
+
+- (void)seting
+{
+    [self popToRootViewControllerAnimated:YES];
+}
 @end
