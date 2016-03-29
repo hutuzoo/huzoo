@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9e32a077-917b-694d-8390-c632e0e3bb0a++2745",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "704F9195CC587F34ADC01FC8F35617F2E0F0D536",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "9e32a077-917b-694d-8390-c632e0e3bb0a++2745" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "9e32a077-917b-694d-8390-c632e0e3bb0a++2745" : 0
+    "9e32a077-917b-694d-8390-c632e0e3bb0a++2745" : 0,
+    "704F9195CC587F34ADC01FC8F35617F2E0F0D536" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B24A6DC4-25DB-4E30-B13C-F9A0F28C2BA9",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "9e32a077-917b-694d-8390-c632e0e3bb0a++2745" : "mkme\/"
+    "9e32a077-917b-694d-8390-c632e0e3bb0a++2745" : "",
+    "704F9195CC587F34ADC01FC8F35617F2E0F0D536" : "%E7%99%BE%E6%80%9D%E4%B8%8D%E5%BE%97%E5%A7%90\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "百思不得姐",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "百思不得姐\/百思不得姐.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "百思不得姐.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hutuzoo\/huzoo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "704F9195CC587F34ADC01FC8F35617F2E0F0D536"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.100.24\/svn\/IOS",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",

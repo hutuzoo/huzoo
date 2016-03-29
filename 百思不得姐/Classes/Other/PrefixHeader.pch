@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by hutuzoo on 16/3/25.
+//  Copyright © 2016年 sunmanfu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+XMGExtension.h"
+#import "UIBarButtonItem+XMGExtensoin.h"
+
+#ifdef DEBUG
+
+#define XMGLog(...) NSLog(__VA_ARGS__)
+#else
+#define XMGLog(...)
+#endif
+
+#define XMGLogFun XMGLog(@"%s", __FUNCTION__);
+
+#define XMGRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
+#endif
